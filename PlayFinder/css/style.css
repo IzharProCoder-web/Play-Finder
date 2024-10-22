@@ -1,0 +1,1035 @@
+/* reset the defaul properties  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "poppins", serif;
+  color: #222;
+  line-height: 1;
+  text-transform: capitalize;
+  /* background-color: #555; */
+
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Navbar */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #56e078;
+}
+
+.navbar-div-1 {
+  text-align: center;
+  height: 6rem;
+  background-color: #2f285a;
+  clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+}
+.navbar-logo {
+  text-align: center;
+  width: 18rem;
+  padding-top: 1rem;
+}
+
+.navbar-div-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #56e078;
+  padding: 0 2rem;
+}
+.hide {
+  display: none;
+}
+
+.search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-div p:hover {
+  color: #2f285aba;
+}
+.search-para {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2f285a;
+  font-size: 1.6rem;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #2f285a;
+}
+
+.navbar-line {
+  margin: 0 2rem;
+}
+
+.sign-up p {
+  font-size: 1.6rem;
+}
+
+.sign-up-p,
+.login-p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.sign-up-p:hover,
+.login-p:hover,
+.navbar-div-3 a:hover,
+.top-headline b:hover {
+  color: #2f285aba;
+  cursor: pointer;
+}
+.navbar-div-3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  clip-path: polygon(13% 1%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.navbar-div-3 a {
+  color: #2f285a;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Top-Headline */
+.top-headline {
+  max-width: 100%;
+  height: 3.5rem;
+  background-color: #00a8ff;
+  text-align: center;
+}
+
+.top-headline p {
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.purple {
+  color: #2f285a;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 50.6rem;
+  background-image: url(../images/girls-hug-home-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 42.8rem;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  height: 35rem;
+  margin-top: 8rem;
+  margin-left: 10rem;
+  padding: 0 1.5rem;
+  box-shadow: 0px 1px 2px 3px #00000020;
+}
+
+.hero-card-heading {
+  text-transform: uppercase;
+  color: #56e078;
+  font-size: 4.8rem;
+  padding: 2rem 0;
+}
+
+.hero-card p {
+  font-size: 1.5rem;
+  color: #2f285a;
+  padding: 1rem 0;
+}
+
+.select-game-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 38.8rem;
+  height: 4.6rem;
+  box-shadow: 0px 1px 2px 3px #00000020;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+.icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search-place {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 2px 3px #00000020;
+  max-width: 38.8rem;
+  height: 4.6rem;
+  margin-bottom: 2rem;
+}
+.enter-location {
+  outline: none;
+  border: none;
+  width: 28rem;
+}
+
+.send-icon {
+  transform: rotate(-50deg);
+  width: 3rem;
+
+  fill: #333;
+}
+.hero-card-btn {
+  background-color: #2f285a;
+  color: #56e078;
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  font-weight: 7600;
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.hero-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  padding-bottom: -1rem;
+  padding: 0 2rem;
+  height: 57rem;
+  width: 30rem;
+  clip-path: polygon(100% 31%, 0% 100%, 100% 100%);
+}
+
+.hero-logo img {
+  width: 15rem;
+}
+
+/* hero down section */
+
+.hero-down-section {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: start;
+  gap: 10rem;
+  background-color: #2f285a;
+  color: #fff;
+  height: 6.2rem;
+}
+
+.find-sport {
+  display: flex;
+  align-items: center;
+}
+.find-sport img {
+  width: 3rem;
+}
+.find-sport p {
+  padding: 0 1rem;
+}
+
+.fix-date {
+  display: flex;
+  align-items: center;
+}
+.fix-date img {
+  width: 3rem;
+}
+.fix-date p {
+  padding: 0 1rem;
+}
+.play-game {
+  display: flex;
+  align-items: center;
+}
+
+.play-game img {
+  width: 3rem;
+}
+
+.play-game p {
+  padding: 0 1rem;
+}
+
+/* find-your-play section */
+
+.find-your-play-section {
+  margin: 8rem 0;
+}
+.find-your-play-header {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 700;
+  color: #373737;
+  padding-bottom: 1rem;
+}
+
+.find-your-play-card-1,
+.find-your-play-card-2,
+.find-your-play-card-3 {
+  width: 38rem;
+  height: 46.5rem;
+}
+
+.find-your-play-des {
+  font-size: 2rem;
+  text-align: center;
+  color: #373737;
+  padding-bottom: 3rem;
+}
+
+.find-your-play-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.find-your-play-cards img {
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.find-your-play-cards h3 {
+  font-size: 1.8rem;
+  color: #2f285a;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  /* border-bottom: 2px solid #56e078;
+  border-bottom-width: 4px; */
+}
+.find-your-play-cards p {
+  font-size: 1.6rem;
+  color: #373737;
+  margin: 2.4rem 0;
+  line-height: 1.5;
+}
+
+.find-your-play-btn {
+  font-size: 1.3rem;
+  color: #2f285a;
+  font-weight: 500;
+  background-color: #56e078;
+  padding: 9px 8px;
+}
+
+.find-your-play-btn:hover {
+  background-color: #a4c5ac;
+}
+
+/* mobile-app-section */
+.mobile-app-section {
+  background-image: url(../images/recreate-background-banner-app.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 100%; */
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-app-text {
+  padding: 6.4rem 1.5rem 0;
+}
+
+.mobile-app-text h3 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.mobile-app-text h2 {
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.mobile-app-text li {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.mobile-app-text li span {
+  color: #56e078;
+  padding-right: 2rem;
+}
+
+.mobile-app-logoes {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.google-playstore-logo,
+.apple-store-logo {
+  max-width: 14.4rem;
+}
+
+.mobile-app-img img {
+  margin-top: 8rem;
+  width: 75rem;
+}
+
+/* about section */
+
+.about-section {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+  color: #373737;
+}
+.about-section-div-1 img,
+.about-section-div-2 img,
+.about-section-div-3 img {
+  /* width: 4.3rem; */
+  width: 10%;
+}
+.about-section-div-1,
+.about-section-div-2,
+.about-section-div-3 {
+  max-width: 38rem;
+  height: 32rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+.about-section-heading {
+  font-size: 2.4rem;
+  margin: 1rem 0 8px;
+  text-transform: uppercase;
+}
+
+.about-section-para {
+  margin-bottom: 6.4rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* pitch count section */
+.pitch-count-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #373737;
+}
+.pitch-count-text {
+  padding: 0 1.5rem;
+  margin-bottom: 3.2px;
+  border: 3px solid #56e078;
+  width: 25rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.pitch-count-text h3 {
+  font-size: 2.4rem;
+  padding-top: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.pitch-count-text p {
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+/* the londan sports facilities */
+
+.show-img {
+  display: none;
+}
+.londan-facilities-section {
+  background-color: #dcdcdc;
+  /* height: 78.2rem; */
+  display: flex;
+  justify-content: space-evenly;
+  color: #373737;
+  margin: 10rem 15rem;
+  padding: 2rem 3.2rem;
+}
+
+.londan-facilities-text {
+  width: 53.6rem;
+  padding: 6.4rem 1.5rem 0;
+}
+.londan-facilities-text h2 {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}
+
+.londan-facilities-text p {
+  margin-bottom: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.londan-facilities-images {
+  width: 53.6rem;
+  padding: 3.2rem 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #ffffff;
+  text-align: left;
+}
+.londan-facilities-section a {
+  color: #fff;
+}
+.londan-facilities-images h3 {
+  padding-top: 12rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+}
+
+.londan-facilities-images p {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+.londan-facilities-img-div-1 {
+  background-image: url(../images/london_football_pitches.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 49.8rem;
+  height: 33.2rem;
+  grid-column: 1 / 3;
+}
+
+.londan-facilities-img-div-1 h3 {
+  padding-top: 28rem;
+}
+
+.londan-facilities-img-div-2 {
+  background-image: url(../images/london_badminton_courts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.londan-facilities-img-div-3 {
+  background-image: url(../images/london_tennis_courts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.londan-facilities-img-div-4 {
+  background-image: url(../images/london_squash_courts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.londan-facilities-img-div-5 {
+  background-image: url(../images/london_basketball_courts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.slider-arrow {
+  display: none;
+}
+.arrow-backward,
+.arrow-forward {
+  border: 1px solid #373737;
+}
+
+/* The Manchester sports facilites */
+
+.Manchester-facilities-img-div-1 {
+  background-image: url(../images/manchester_football.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 49.8rem;
+  height: 33.2rem;
+  grid-column: 1 / 3;
+}
+
+.Manchester-facilities-img-div-1 h3 {
+  padding-top: 28rem;
+}
+
+.Manchester-facilities-img-div-2 {
+  background-image: url(../images/manchester_badminton.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.Manchester-facilities-img-div-3 {
+  background-image: url(../images/manchester_basketball.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.Manchester-facilities-img-div-4 {
+  background-image: url(../images/manchester_squash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.Manchester-facilities-img-div-5 {
+  background-image: url(../images/manchester_tennis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+.landon-hide-text {
+  display: none;
+}
+
+/* <!-- Rest of UK Sports Facilities section --> */
+
+.uk-facilities-img-div-1 {
+  background-image: url(../images/luton_football.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 49.8rem;
+  height: 33.2rem;
+  grid-column: 1 / 3;
+}
+
+.uk-facilities-img-div-1 h3 {
+  padding-top: 28rem;
+}
+
+.uk-facilities-img-div-2 {
+  background-image: url(../images/windsor_football.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.uk-facilities-img-div-3 {
+  background-image: url(../images/dublin_tennis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.uk-facilities-img-div-4 {
+  background-image: url(../images/manchester_squash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+.uk-facilities-img-div-5 {
+  background-image: url(../images/luton_cricket.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24.5rem;
+  height: 16.3rem;
+}
+
+/* <!-- sports section --> */
+
+.sports-section {
+  margin: 4rem 0;
+}
+.sports-section-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sports-section-heading {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.sports-section-para {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.sports-section-div-1 {
+  width: 38rem;
+  height: 75.3rem;
+  padding: 1.5rem;
+  margin-bottom: 6.4rem;
+}
+
+.sports-section-div-1 img {
+  width: 35rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.sports-section-div-heading {
+  font-size: 1.8rem;
+  color: #2f285a;
+  font-weight: 600;
+}
+
+.sports-section-div-1 p {
+  margin: 2.4rem 0;
+  line-height: 1.3;
+  font-size: 1.6rem;
+  color: #373737;
+}
+
+.sports-section-img-1 {
+  height: 46.6rem;
+}
+
+/* our-partner-section */
+
+.our-partner-section {
+  background-color: #dcdcdc;
+  padding: 2rem;
+}
+.our-partner-section h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 6.4rem;
+  padding-top: 3rem;
+}
+.our-partners-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
+  /* justify-content: c; */
+  justify-items: center;
+  align-items: center;
+}
+
+.our-partner-section img {
+  width: 16rem;
+  height: 7.2rem;
+}
+
+/* PLAYFINDER for Sports Venue Operators */
+.sports-venue {
+  margin: 8rem 5rem;
+}
+
+.sports-venue-heading {
+  font-size: 2.4rem;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.sports-venue-para {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sports-venue-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4.8rem 8.9rem 0;
+}
+
+.sports-venue-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1.5rem;
+  width: 350px;
+  height: 310px;
+}
+.sports-venue-div-1 img {
+  width: 4.4rem;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.sports-venue-div-1 h2 {
+  font-size: 2.4rem;
+  padding-bottom: 1.6rem;
+}
+
+.sports-venue-div-1 p {
+  font-size: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.sports-venue-div-1-btn {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  background-color: #56e078;
+  border: none;
+  outline: none;
+  color: #2f285a;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.sports-venue-div-1-btn:hover,
+.email-sec button:hover {
+  background-color: #5a8e66;
+  cursor: pointer;
+}
+
+/* contacts-us */
+.contacts-us {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #56e078;
+  height: 10rem;
+}
+
+.social-media-logo {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem 0;
+  padding-left: 15rem;
+}
+.social-media-logo img {
+  width: 6rem;
+}
+
+.email-sec {
+  text-align: start;
+  background-color: #2f285a;
+  width: 70rem;
+  padding-left: 7rem;
+  padding-top: 1.5rem;
+  clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.email-sec h3 {
+  font-size: 2rem;
+  padding-bottom: 1.3rem;
+}
+
+.email-sec input {
+  padding: 1.2rem 7rem;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  margin-right: 2rem;
+}
+
+.email-sec button {
+  background-color: #56e078;
+  border: none;
+  outline: none;
+  padding: 1.2rem 4rem;
+  padding-left: 10px;
+  color: #2f285a;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* footer */
+footer {
+  margin-top: 5rem;
+}
+footer a {
+  color: #188155;
+}
+
+footer h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.footer-part-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin: 0 2rem;
+}
+
+.quick-links,
+.book-sports-facilities,
+.footer-message {
+  padding: 0 1.5rem;
+  margin: 2.4rem 0;
+}
+.quick-links h3 {
+  margin-bottom: 1.5rem;
+}
+
+.quick-links p {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+
+.quick-links a {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.book-sports-facilities h3 {
+  margin-bottom: 1.5rem;
+}
+
+.book-sports-facilities p {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+
+.book-sports-facilities a {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.footer-message {
+  background-color: #3333;
+  width: 54rem;
+  height: 31.7rem;
+  padding: 1.6rem;
+}
+
+.footer-message h3 {
+  margin-bottom: 8px;
+}
+
+.footer-message a {
+  font-size: 1.6rem;
+}
+
+.footer-message p {
+  margin: 8px 0;
+  line-height: 1.2;
+}
+
+
+
+.footer-part-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 5rem;
+}
+
+.community-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  margin-bottom: 2.4rem;
+}
+
+.community-div h3 {
+  margin-bottom: 1.5rem;
+  
+}
+
+.community-div p {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.community-div a {
+  margin-bottom: 0.5rem;
+}
+
+
+.events-div  {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  margin-bottom: 2.4rem;
+}
+.events-div h3 {
+  margin-bottom: 1.5rem;
+}
+.events-div p {
+  padding-bottom: 1rem;
+}
+.events-div a {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.Secure-Payments {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.Secure-Payments h3 {
+  padding-bottom: 1.5rem;
+}
+.Secure-Payments p {
+  font-size: 1.6rem;
+  /* padding: 0 2rem; */
+  text-align: center;
+}
+.lock-img {
+  width: 2rem;
+}
+
+
+.app-div {
+  padding: 0 1.5rem;
+  margin-bottom: 2.4rem;
+}
+.app-img-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-img-div img {
+  width: 15rem;
+  padding-bottom: 1.5rem;
+}

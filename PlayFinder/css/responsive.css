@@ -1,0 +1,590 @@
+@media (max-width: 1320px) {
+  .hide-para {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .londan-facilities-section {
+    flex-direction: column;
+  }
+  .show-img {
+    display: block;
+    width: 100%;
+  }
+
+  .hide-img {
+    display: none;
+  }
+
+  .slider-arrow {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 2rem;
+  }
+  .londan-facilities-section {
+    height: 80rem;
+  }
+  .londan-facilities-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .londan-facilities-img-div-1 {
+    background-image: url(../images/london_football_pitches.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 49.8rem;
+    height: 33.2rem;
+  }
+
+  .Manchester-facilities-img-div-1 {
+    background-image: url(../images/manchester_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 49.8rem;
+    height: 33.2rem;
+  }
+
+  .uk-facilities-img-div-1 {
+    background-image: url(../images/windsor_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 30rem;
+    height: 33.2rem;
+  }
+
+  .sports-section-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sports-div-hide {
+    display: none;
+  }
+}
+@media (max-width: 941px) {
+  .hide {
+    display: block;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #56e078;
+  }
+  .navbar-div-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 20rem;
+  }
+  .navbar-div-3 {
+    display: none;
+  }
+  .navbar-div-3,
+  .sign-up-p,
+  .navbar-line,
+  .user-icon,
+  .login-p,
+  .search-div p {
+    display: none;
+  }
+  .hero {
+    background-image: 60%;
+    height: 100%;
+  }
+  .hero-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 32.8rem;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    height: 35rem;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    padding: 0 1.5rem;
+    box-shadow: 0px 1px 2px 3px #00000020;
+  }
+
+  .hero-card-heading {
+    text-transform: uppercase;
+    color: #56e078;
+    font-size: 3.2rem;
+    padding: 2rem 0;
+  }
+
+  .hero-card p {
+    font-size: 1.3rem;
+    color: #2f285a;
+    padding: 1rem 0;
+  }
+
+  .select-game-div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 28rem;
+    height: 4.6rem;
+    box-shadow: 0px 1px 2px 3px #00000020;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .icon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .search-place {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 2px 3px #00000020;
+    max-width: 28rem;
+    height: 4.6rem;
+    margin-bottom: 2rem;
+  }
+  .enter-location {
+    outline: none;
+    border: none;
+    width: 20rem;
+  }
+
+  .send-icon {
+    transform: rotate(-50deg);
+    fill: #333;
+  }
+
+  .hero-card-btn {
+    background-color: #2f285a;
+    color: #56e078;
+    text-transform: uppercase;
+    padding: 1.5rem 1.5rem;
+    font-weight: 7600;
+    font-size: 1.8rem;
+    outline: none;
+    border: none;
+  }
+  .hero-logo {
+    height: 50rem;
+    width: 25rem;
+  }
+
+  .hero-down-section {
+    display: flex;
+    gap: 5rem;
+    padding: 0 2rem;
+    justify-content: center;
+    background-color: #2f285a;
+    color: #fff;
+    height: 6.2rem;
+  }
+
+  .find-sport {
+    display: flex;
+    align-items: center;
+  }
+  .find-sport img {
+    width: 3rem;
+  }
+  .find-sport p {
+    padding: 0 1rem;
+  }
+
+  .fix-date {
+    display: flex;
+    align-items: center;
+  }
+  .fix-date img {
+    width: 3rem;
+  }
+  .fix-date p {
+    padding: 0 1rem;
+  }
+  .play-game {
+    display: flex;
+    align-items: center;
+  }
+
+  .play-game img {
+    width: 3rem;
+  }
+
+  .play-game p {
+    padding: 0 1rem;
+  }
+  .p-hide {
+    display: none;
+  }
+
+  .find-your-play-header {
+    font-size: 2rem;
+  }
+
+  .find-your-play-des {
+    font-size: 1.6rem;
+  }
+  .find-your-play-cards h3 {
+    font-size: 1.6rem;
+  }
+  .find-your-play-cards p {
+    font-size: 1.2rem;
+  }
+
+  .find-your-play-btn {
+    font-size: 1.2;
+  }
+
+  .mobile-app-img img {
+    width: 50rem;
+  }
+
+  .our-partners-images {
+    justify-content: space-between;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .londan-facilities-img-div-1 {
+    background-image: url(../images/london_football_pitches.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+    width: 49.8rem;
+    height: 33.2rem;
+  }
+
+  .Manchester-facilities-img-div-1 {
+    background-image: url(../images/manchester_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+    width: 49.8rem;
+    height: 33.2rem;
+  }
+
+  .uk-facilities-img-div-1 {
+    background-image: url(../images/windsor_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+    width: 30rem;
+    height: 33.2rem;
+  }
+
+  .londan-facilities-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .londan-facilities-text p {
+    display: none;
+  }
+
+  .pitch-count-section {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .contacts-us {
+    flex-direction: column;
+  }
+
+  .social-media-logo {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+  .email-sec {
+    clip-path: none;
+    width: 100%;
+  }
+
+  .footer-part-1,
+  .footer-part-2 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 10rem 3rem;
+  }
+
+  .app-div h3 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    grid-template-columns: 1fr 3fr;
+  }
+  .navbar-logo {
+    width: 8rem;
+    padding-top: 1.5rem;
+  }
+
+  .hero-card {
+    /* padding: 0 15rem; */
+    text-align: center;
+    max-width: 100%;
+    margin-left: 0;
+    height: 26.9rem;
+    padding-bottom: 2rem;
+  }
+  .hero-card-heading {
+    font-size: 2.4rem;
+  }
+  .hero-card-btn,
+  .select-game-div,
+  .search-place {
+    max-width: 100%;
+  }
+  .send-icon {
+    width: 2rem;
+  }
+  .hero-card p {
+    padding-top: 0;
+  }
+  .hero-logo {
+    display: none;
+  }
+  .top-headline p {
+    font-size: 1.2rem;
+  }
+
+  .hero-down-section {
+    max-width: 100%;
+  }
+
+  .find-your-play-cards {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .mobile-app-section {
+    flex-direction: column;
+  }
+
+  .mobile-app-text h3 {
+    font-size: 2.4rem;
+  }
+  .mobile-app-text h2 {
+    font-size: 3.2rem;
+  }
+  .mobile-app-text li {
+    font-size: 1.2rem;
+  }
+
+  .mobile-app-img img {
+    width: 30rem;
+  }
+
+  .londan-facilities-section {
+    justify-content: start;
+    align-items: start;
+    margin: 5rem 0;
+    padding: 0;
+    gap: 2rem;
+    height: 50rem;
+  }
+
+  .londan-facilities-text h2 {
+    font-size: 1.6rem;
+  }
+  .show-img {
+    display: block;
+    width: 50%;
+  }
+
+  .about-section-para {
+    font-size: 1rem;
+  }
+
+  .londan-facilities-img-div-1 {
+    background-image: url(../images/london_football_pitches.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+
+    width: 2rem;
+    height: 33.2rem;
+  }
+
+  .Manchester-facilities-img-div-1 {
+    background-image: url(../images/manchester_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+
+    width: 20rem;
+    height: 33.2rem;
+  }
+
+  .uk-facilities-img-div-1 {
+    background-image: url(../images/windsor_football.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+    width: 20rem;
+    height: 33.2rem;
+  }
+
+  .londan-facilities-text h2 {
+    font-size: 1.6rem;
+    /* color: red; */
+  }
+
+  .our-partners-section img {
+    width: 10rem;
+    height: 5rem;
+  }
+
+  .sports-venue-div {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* mobile desing */
+@media (max-width: 560px) {
+  .navbar-logo {
+    overflow: auto;
+    width: 4rem;
+    padding-top: 2rem;
+  }
+  .hero-card-btn,
+  .select-game-div,
+  .search-place {
+    width: 100%;
+  }
+  .send-icon {
+    width: 2rem;
+  }
+  .hero-card p {
+    padding-top: 0;
+  }
+  .find-your-play-cards img {
+    width: 50%;
+  }
+
+  .mobile-app-img img {
+    width: 20rem;
+  }
+  .google-playstore-logo,
+  .apple-store-logo {
+    max-width: 10rem;
+  }
+  .pitch-count-section {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .about-section {
+    justify-content: start;
+    align-items: start;
+  }
+  .our-partners-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .our-partner-section img {
+    width: 10rem;
+    height: 5rem;
+  }
+  .londan-facilities-section {
+    
+  }
+
+  .sports-section-div-1 img {
+    width: 24rem;
+  }
+  .sports-section-heading {
+    text-align: start;
+    font-size: 1.8rem;
+  }
+  .sports-section-para {
+    font-size: 1.6rem;
+    text-align: start;
+  }
+  .sports-section-div-heading {
+    font-size: 1.4rem;
+  }
+  .social-media-logo {
+    padding-left: 0;
+    justify-content: start;
+  }
+  .social-media-logo img {
+    width: 3rem;
+  }
+  .mobile-app-section {
+    /* display: none; */
+  }
+  .sports-venue-div {
+    margin: 2rem 0;
+  }
+  .sports-venue-heading {
+    text-align: start;
+    font-size: 1.6rem;
+  }
+  .sports-venue-para {
+    font-size: 1rem;
+    text-align: start;
+  }
+  .sports-venue-div-1 h2 {
+    font-size: 1.6rem;
+  }
+  .find-your-play-header {
+    font-size: 1.6rem;
+    text-align: start;
+  }
+  .find-your-play-des {
+    font-size: 1.2rem;
+    text-align: start;
+  }
+
+  .find-your-play-cards {
+    justify-content: start;
+    align-items: start;
+  }
+  .sports-venue-div-1 p {
+    font-size: 1rem;
+  }
+  footer h3 {
+    font-size: 1.2rem;
+  }
+  .footer-message {
+    width: 30rem;
+  }
+
+  .footer-message a {
+    font-size: 1rem;
+  }
+  .footer-message p {
+    font-size: 1rem;
+  }
+  .email-sec {
+    padding-left: 0;
+  }
+
+  .email-sec h3 {
+    font-size: 1.6rem;
+  }
+
+  .email-sec input {
+    padding: 1.2rem 4rem;
+  }
+
+  .email-sec button {
+    padding: 1.2rem 2.5rem;
+  }
+  
+  .londan-facilities-section {
+    display: none;
+  }}
